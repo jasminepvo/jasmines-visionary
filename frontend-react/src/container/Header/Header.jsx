@@ -66,7 +66,7 @@ const Header = () => {
 				{[images.figma, images.react, images.tailwind].map((circle, index) => (
 					<div
 						className="w-[100px] h-[100px] rounded-full bg-white shadow-md even:m-7 even:w-[150px] even:h-[150px] last-of-type:w-[80px] last-of-type:h-[80px] flex justify-center items-center"
-						key={`circle-index`}
+						key={`circle-${index}`}
 					>
 						<img className="w-3/5 h-3/5" src={circle} alt="circle" />
 					</div>
