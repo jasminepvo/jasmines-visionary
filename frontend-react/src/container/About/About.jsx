@@ -27,7 +27,7 @@ const abouts = [
 
 const About = () => {
 	return (
-		<div className="flex-1 w-full flex-col bg-bgWhite">
+		<div className="flex-1 w-full flex-col bg-bgWhite pt-12">
 			<h2 className=" HEADTEXT text-center text-3xl font-bold text-charcoal">
 				I Know That
 				<span className="text-taupe"> Good Apps</span>
