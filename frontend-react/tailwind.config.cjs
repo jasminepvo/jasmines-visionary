@@ -5,6 +5,7 @@ module.exports = {
 		colors: {
 			taupe: "#AD9D90",
 			charcoal: "#545454",
+			white: "#ffffff",
 		},
 		fontFamily: {
 			Abril: ["Abril Fatface", "cursive"],
