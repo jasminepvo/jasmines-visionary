@@ -11,7 +11,11 @@ module.exports = {
 			Abril: ["Abril Fatface", "cursive"],
 			DM: ["DM Serif Display", "serif"],
 		},
-		extend: {},
+		extend: {
+			backgroundImage: {
+				hero: "url('../src/assets/bgIMG.png')",
+			},
+		},
 	},
 	plugins: [],
 };
