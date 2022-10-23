@@ -1,7 +1,7 @@
 import React from "react";
 
 import { About, Footer, Header, Work } from "./container";
-import { Navbar } from "./components";
+import { Navbar, SocialMedia } from "./components";
 
 const App = () => {
 	return (
