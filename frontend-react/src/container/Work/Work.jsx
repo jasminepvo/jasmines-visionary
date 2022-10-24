@@ -27,7 +27,7 @@ const Work = () => {
 				My <span className="text-taupe">Creative </span>Portfolio
 			</h2>
 			{/* Filter through the works */}
-			<div className="appworkfilter  flex flex-row justify-center items-center flex-wrap mt-16 mr-0 mb-8">
+			<div className="appworkfilter flex flex-row justify-center items-center flex-wrap mt-16 mr-0 mb-8">
 				{["Web App", "React JS", "Full Stack App", "Creative Fun", "All"].map(
 					(item, index) => (
 						<div
@@ -51,12 +51,12 @@ const Work = () => {
 			>
 				{filterWork.map((work, index) => (
 					<div
-						className="APPWORK-ITEM w-[270px] flex-col p-4 bg-white text-charcoal m-8 rounded-lg hover:shadow-lg hover:shadow-taupe lg:w-[470px] lg:p-5 lg:rounded-xl flex justify-center items-center "
+						className="APPWORK-ITEM w-[270px] flex-col m-8 p-4 bg-white text-charcoal cursor-pointer transition-all rounded-lg hover:shadow-lg hover:shadow-taupe lg:w-[470px] lg:p-5 lg:rounded-xl flex justify-center items-center "
 						key={index}
 					>
-						<div className="APPWORK-IMG w-full h-60 relative flex justify-center items-center">
+						<div className="APPWORK-IMG w-full h-[230px] relative flex justify-center items-center">
 							<img
-								className="w-full h-full rounded-lg object-cover cursor:pointer  lg:h-80"
+								className="w-full h-full rounded-lg object-cover lg:h-[230px]"
 								src={urlFor(work.imgUrl)}
 								alt={work.name}
 							/>
