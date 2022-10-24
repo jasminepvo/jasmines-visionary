@@ -1,7 +1,7 @@
 import React from "react";
 
-import { About, Footer, Header, Work } from "./container";
-import { Navbar, SocialMedia } from "./components";
+import { Header, About, Work, Skills, Footer } from "./container";
+import { Navbar } from "./components";
 
 const App = () => {
 	return (
@@ -10,6 +10,7 @@ const App = () => {
 			<Header />
 			<About />
 			<Work />
+			<Skills />
 			<Footer />
 		</div>
 	);
