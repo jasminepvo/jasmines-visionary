@@ -9,6 +9,7 @@ import about1 from "../assets/about01.png";
 import about2 from "../assets/about02.png";
 import about3 from "../assets/about03.png";
 import about4 from "../assets/about04.png";
+import headshot from "../assets/headshot.jpg";
 
 export default {
 	logo,
@@ -22,4 +23,5 @@ export default {
 	about2,
 	about3,
 	about4,
+	headshot,
 };
