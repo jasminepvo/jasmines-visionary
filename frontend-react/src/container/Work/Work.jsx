@@ -21,6 +21,23 @@ const Work = () => {
 		});
 	}, []);
 
+	const handleWorkFilter = (item) => {
+		setActiveFilter(item);
+		// Trigger shuffle animation of cards
+		setAnimateCard([{ y: 100, opacity: 0 }]);
+
+		setTimeout(() => {
+			// Reset the cards
+			setAnimateCard([{ y: 0, opacity: 1 }]);
+
+			if (item === "All") {
+				setFilterWork(works);
+			} else {
+				setFilterWork(works.filter((work) => work.tags.includes(item)));
+			}
+		}, 500);
+	};
+
 	return (
 		<div className="bg-bgWhite flex-1 w-full flex-col">
 			<h2 className="text-4xl font-extrabold text-center text-charcoal uppercase">
@@ -51,10 +68,10 @@ const Work = () => {
 			>
 				{filterWork.map((work, index) => (
 					<div
-						className="APPWORK-ITEM w-[270px] flex-col m-8 p-4 bg-white text-charcoal cursor-pointer transition-all rounded-lg hover:shadow-lg hover:shadow-taupe lg:w-[470px] lg:p-5 lg:rounded-xl flex justify-center items-center "
+						className="w-[270px] flex-col m-8 p-4 bg-white text-charcoal cursor-pointer transition-all rounded-lg hover:shadow-lg hover:shadow-taupe lg:w-[470px] lg:p-5 lg:rounded-xl flex justify-center items-center"
 						key={index}
 					>
-						<div className="APPWORK-IMG w-full h-[230px] relative flex justify-center items-center">
+						<div className="w-full h-[230px] relative flex justify-center items-center">
 							<img
 								className="w-full h-full rounded-lg object-cover lg:h-[230px]"
 								src={urlFor(work.imgUrl)}
@@ -62,7 +79,7 @@ const Work = () => {
 							/>
 
 							<motion.div
-								className="APPWORK-HOVER absolute top-0 bottom-0 left-0 right-0 w-full h-full hover:bg-[rgba(0,0,0,0.5)] opacity-0 rounded-lg flex justify-center items-center"
+								className="absolute top-0 bottom-0 left-0 right-0 w-full h-full hover:bg-[rgba(0,0,0,0.5)] opacity-0 rounded-lg flex justify-center items-center"
 								whileHover={{ opacity: [0, 1] }}
 								transition={{
 									duration: 0.25,
