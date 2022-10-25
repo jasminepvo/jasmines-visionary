@@ -15,6 +15,43 @@ const Skills = () => {
 		});
 	});
 
+	const [quote, setQuote] = useState("");
+	const [author, setAuthor] = useState("");
+
+	useEffect(() => {
+		const url = "https://api.goprogram.ai/inspiration";
+
+		const fetchData = async () => {
+			try {
+				const response = await fetch(url);
+				const json = await response.json();
+				setQuote(json.quote);
+				setAuthor(json.author);
+				console.log(json.quote);
+				console.log(json.author);
+			} catch (error) {
+				console.log("error", error);
+			}
+		};
+		fetchData();
+	}, []);
+
+	// const getFetch = () => {
+	// 	const url = "https://api.goprogram.ai/inspiration";
+
+	// 	fetch(url)
+	// 		.then((res) => res.json()) // parse response as JSON
+	// 		.then((response) => {
+	// 			document.querySelector(
+	// 				".quote"
+	// 			).innerText = `"${response.quote}" - ${response.author}`;
+	// 		})
+	// 		.catch((err) => {
+	// 			console.log(`error ${err}`);
+	// 		});
+	// };
+	// getFetch();
+
 	return (
 		<div className="bg-bgWhite flex-1 w-full flex-col flex justify-center items-center">
 			<h2 className="text-4xl font-extrabold text-taupe uppercase">
@@ -43,6 +80,18 @@ const Skills = () => {
 						</motion.div>
 					))}
 				</motion.div>
+			</div>
+
+			{/* Add quote api */}
+			<div className="pt-40 flex justify-center items-center flex-col">
+				<h2 className="uppercase text-charcoal font-bold text-2xl pb-8">
+					Come back for a <span className="text-taupe">new quote</span> every
+					hour
+				</h2>
+				<div className="bg-white rounded-lg p-8 shadow-md flex justify-center items-center flex-col">
+					<p className="font-semibold italic">"{quote}"</p>
+					<span className="text-right">- {author}</span>
+				</div>
 			</div>
 		</div>
 	);
