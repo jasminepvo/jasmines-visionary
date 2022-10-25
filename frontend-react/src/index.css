@@ -10,9 +10,9 @@
 	line-height: a24px;
 	font-weight: 400;
 
-	color-scheme: light dark;
-	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	/* color-scheme: light dark;
+	color: #242424;
+	background-color: #242424; */
 
 	font-synthesis: none;
 	text-rendering: optimizeLegibility;
@@ -27,7 +27,7 @@
 	margin: 0;
 	scroll-behavior: smooth;
 }
-
+/* 
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
@@ -39,4 +39,4 @@
 	button {
 		background-color: #f9f9f9;
 	}
-}
+} */

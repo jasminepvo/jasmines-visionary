@@ -83,7 +83,7 @@ const Skills = () => {
 			</div>
 
 			{/* Add quote api */}
-			<div className="pt-40 flex justify-center items-center flex-col">
+			<div className="pt-40 flex justify-center items-center flex-col p-12 text-center">
 				<h2 className="uppercase text-charcoal font-bold text-2xl pb-8">
 					Come back for a <span className="text-taupe">new quote</span> every
 					hour
