@@ -33,7 +33,7 @@ const Navbar = () => {
 
 				{toggle && (
 					<motion.div
-						className="fixed top-0 bottom-0 right-0 z-5 p-4 w-4/5 h-screen flex justify-end items-end bg-taupe bg-cover bg-repeat shadow-2xl shadow-charcoal flex-col"
+						className="fixed top-0 bottom-0 right-0 z-100 p-4 w-4/5 h-screen flex justify-end items-end bg-taupe bg-cover bg-repeat shadow-2xl shadow-charcoal flex-col"
 						whileInView={{ x: [300, 0] }}
 						transition={{ duration: 0.85, ease: "easeOut" }}
 					>
