@@ -18,23 +18,23 @@ const Skills = () => {
 	const [quote, setQuote] = useState("");
 	const [author, setAuthor] = useState("");
 
-	useEffect(() => {
-		const url = "https://api.goprogram.ai/inspiration";
+	// useEffect(() => {
+	// 	const url = "https://api.goprogram.ai/inspiration";
 
-		const fetchData = async () => {
-			try {
-				const response = await fetch(url);
-				const json = await response.json();
-				setQuote(json.quote);
-				setAuthor(json.author);
-				console.log(json.quote);
-				console.log(json.author);
-			} catch (error) {
-				console.log("error", error);
-			}
-		};
-		fetchData();
-	}, []);
+	// 	const fetchData = async () => {
+	// 		try {
+	// 			const response = await fetch(url);
+	// 			const json = await response.json();
+	// 			setQuote(json.quote);
+	// 			setAuthor(json.author);
+	// 			console.log(json.quote);
+	// 			console.log(json.author);
+	// 		} catch (error) {
+	// 			console.log("error", error);
+	// 		}
+	// 	};
+	// 	fetchData();
+	// }, []);
 
 	// const getFetch = () => {
 	// 	const url = "https://api.goprogram.ai/inspiration";
