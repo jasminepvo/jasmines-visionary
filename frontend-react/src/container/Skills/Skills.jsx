@@ -80,19 +80,7 @@ const Skills = () => {
 						</motion.div>
 					))}
 				</motion.div>
-			</div>
-
-			{/* Add quote api */}
-			<div className="pt-40 flex justify-center items-center flex-col p-12 text-center">
-				<h2 className="uppercase text-charcoal font-bold text-2xl pb-8">
-					Come back for a <span className="text-taupe">new quote</span> every
-					hour
-				</h2>
-				<div className="bg-white rounded-lg p-8 shadow-md flex justify-center items-center flex-col">
-					<p className="font-semibold italic">"{quote}"</p>
-					<span className="text-right">- {author}</span>
-				</div>
-			</div>
+			</div>			
 		</div>
 	);
 };
