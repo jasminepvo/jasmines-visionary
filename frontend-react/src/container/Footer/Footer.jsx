@@ -16,9 +16,9 @@ const Footer = () => {
 				className="pb-8 flex flex-row hover:underline text-charcoal hover:text-taupe "
 				text="jasminepvo.dev@gmail.com"
 			>
-				<p>
+				<a href="mail:jasminepvo.dev@gmail.com">
 					jasminepvo.dev@gmail.com <IoIosCopy />
-				</p>
+				</a>
 			</CopyToClipboard>
 		</div>
 	);
