@@ -34,13 +34,9 @@ const Header = () => {
           </div>
 
           <div className="tag-cmp py-4 px-8 border-white rounded-md flex-col mt-6 lg:mt-12 w-auto shadow-md app__flex">
-            <p className="w-full uppercase text-right">Frontend Engineer</p>
-            <p className="w-full uppercase text-right">
-              Creative Web Developer
-            </p>
-            <p className="w-full uppercase text-right">
-              Tech Enthusiast &amp; Freelancer
-            </p>
+            <p className="w-full uppercase text-right">Software Developer</p>
+            <p className="w-full uppercase text-right"></p>
+            <p className="w-full uppercase text-right">Wellness Advocate</p>
           </div>
         </div>
       </motion.div>

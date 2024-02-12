@@ -10,18 +10,20 @@ import about2 from "../assets/about02.png";
 import about3 from "../assets/about03.png";
 import about4 from "../assets/about04.png";
 import headshot from "../assets/headshot.jpg";
+import banner from "../assets/banner.png";
 
 export default {
-	logo,
-	profile,
-	circle,
-	bgIMG,
-	figma,
-	react,
-	tailwind,
-	about1,
-	about2,
-	about3,
-	about4,
-	headshot,
+  logo,
+  profile,
+  circle,
+  bgIMG,
+  figma,
+  react,
+  tailwind,
+  about1,
+  about2,
+  about3,
+  about4,
+  headshot,
+  banner,
 };
