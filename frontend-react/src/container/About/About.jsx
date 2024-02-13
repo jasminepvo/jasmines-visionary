@@ -76,17 +76,17 @@ const About = () => {
           <div class="grid grid-cols-1 gap-8 mt-8 lg:gap-16 lg:grid-cols-2 lg:mt-16">
             <div>
               <div>
-                <h3 class="text-2xl font-extrabold text-gray-900 dark:text-white">
+                <h3 class="text-2xl font-extrabold text-charcoal dark:text-taupe">
                   About Me
                 </h3>
-                <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-lg font-normal text-charcoal dark:text-taupe">
                   Hello! I'm Jasmine Vo, a Frontend Developer with a passion for
                   crafting seamless user experiences and a penchant for
                   minimalistic design. I bring to the table a blend of technical
                   proficiency and a zen-like focus on user-centered design
                   principles.
                 </p>
-                <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-lg font-normal text-charcoal dark:text-taupe">
                   In my world, every pixel counts and is meticulously placed
                   with intention and care. My approach is detail-oriented and
                   organized, mirroring my commitment to both my personal growth
@@ -110,7 +110,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Clean Code Advocate
                   </span>
                 </li>
@@ -128,7 +128,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Detail-Oriented Developer
                   </span>
                 </li>
@@ -146,7 +146,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Empathetic UX Enthusiast
                   </span>
                 </li>
@@ -164,7 +164,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Effective Team Collaborator
                   </span>
                 </li>
@@ -182,7 +182,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Continuous Learner
                   </span>
                 </li>
@@ -200,7 +200,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Clear Communicator
                   </span>
                 </li>
@@ -218,7 +218,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Passionate Creator
                   </span>
                 </li>
@@ -236,7 +236,7 @@ const About = () => {
                       clip-rule="evenodd"
                     />
                   </svg>
-                  <span class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <span class="text-base font-normal text-charcoal dark:text-taupe">
                     Resilient Spirit
                   </span>
                 </li>
@@ -245,10 +245,10 @@ const About = () => {
 
             <div class="space-y-8">
               <div>
-                <h3 class="text-2xl font-extrabold text-gray-900 dark:text-white">
+                <h3 class="text-2xl font-extrabold text-charcoal dark:text-taupe">
                   My Background
                 </h3>
-                <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-lg font-normal text-charcoal dark:text-taupe">
                   My journey into tech was fueled by a passion for coding that
                   ignited instantly. Despite a detour during my college years,
                   where financial challenges led me to work in restaurants and
@@ -257,7 +257,7 @@ const About = () => {
                   and determination, I mastered the skills needed to pivot back
                   into tech, landing my role as a Software Developer.
                 </p>
-                <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-lg font-normal text-charcoal dark:text-taupe">
                   When I'm not coding, you'll find me embracing holistic health
                   and wellness, from the tranquility of a strength training
                   session to the adrenaline rush of a good workout. I believe in
@@ -267,10 +267,10 @@ const About = () => {
               </div>
 
               <div>
-                <h3 class="text-2xl font-extrabold text-gray-900 dark:text-white">
+                <h3 class="text-2xl font-extrabold text-charcoal dark:text-taupe">
                   What I'm Looking For
                 </h3>
-                <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
+                <p class="mt-2 text-lg font-normal text-charcoal dark:text-taupe">
                   I thrive in collaborative environments, cherishing the synergy
                   of a motivated team and the excitement of turning bold ideas
                   into reality. If you're looking for a developer who not only
