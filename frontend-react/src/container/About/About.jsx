@@ -77,7 +77,7 @@ const About = () => {
             <div>
               <div>
                 <h3 class="text-2xl font-extrabold text-gray-900 dark:text-white">
-                  Why You Should Hire Me
+                  About Me
                 </h3>
                 <p class="mt-2 text-lg font-normal text-gray-500 dark:text-gray-400">
                   Hello! I'm Jasmine Vo, a Frontend Developer with a passion for
