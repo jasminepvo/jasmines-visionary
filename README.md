@@ -1,9 +1,9 @@
-# Jasmine's Visionary 
+# Jasmine Vo's 2nd Portfolio
 Portfolio site updated as of Oct, 25 2022 
 
-**Link to project:** https://jasminesvisionary.com
+**Link to project:** https://jasminepvo-v2.netlify.app
 
-![jasminesvisionary](https://user-images.githubusercontent.com/99847030/197852415-ace3854a-4d6a-43e8-a2f0-5408da8e540d.gif)
+![jasminepvo-v2](https://user-images.githubusercontent.com/99847030/197852415-ace3854a-4d6a-43e8-a2f0-5408da8e540d.gif)
 
 ## How It's Made:
 
